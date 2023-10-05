@@ -14,6 +14,21 @@ from typing import List, Tuple
 
 movie_db: List[Tuple[str, str, int, List[str]]] = [
     (
+        "Kingsman: Secret Service",
+        "Mattew Vaughn",
+        2014,
+        [
+            "taron egerton",
+            "collin firth",
+            "samuel l. jackson",
+            "michael cain"
+        ],
+    )
+    
+    
+    
+    
+    (
         "amarcord",  # title
         "federico fellini",  # director
         1974,  # year

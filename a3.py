@@ -196,6 +196,13 @@ def title_by_actor(matches: List[str]) -> List[str]:
             results.append(get_title(movie))
     return results
 
+def director_by_year(matches:List[str])-> List[str]:
+    results=[]
+    for movie in movie_db:
+        if matches[0] in  get_year(movie):
+            results.append(get_director(movie))
+    return results
+
 
 # dummy argument is ignored and doesn't matter
 def bye_action(dummy: List[str]) -> None:
@@ -212,6 +219,7 @@ pa_list: List[Tuple[List[str], Callable[[List[str]], List[Any]]]] = [
     # note there are two valid patterns here two different ways to ask for the director
     # of a movie
     (str.split("who directed %"), director_by_title),
+    (str.split("who directed movies in %"), director_by_year),
     (str.split("who was the director of %"), director_by_title),
     (str.split("what movies were directed by %"), title_by_director),
     (str.split("who acted in %"), actors_by_title),
