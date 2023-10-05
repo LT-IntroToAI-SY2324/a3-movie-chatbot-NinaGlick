@@ -20,7 +20,7 @@ I would do a similar one, but for music. the database would have artist, year, a
 the seach PA function was pretty hard for me. I didn't even know where to start with it. i didn't think to use the action function to find the matches and call the right fnction.
 
 6. Did you write a new assert for your pattern action?
-I didn't.
+Yes.
 
 
 
