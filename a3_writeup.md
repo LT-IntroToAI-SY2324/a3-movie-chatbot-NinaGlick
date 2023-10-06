@@ -17,7 +17,7 @@ I made a director by year function, and made a pattern to match a source for it.
 I would do a similar one, but for music. the database would have artist, year, album, song, genre, etc.
 
 5. What was the most difficult portion of this assignment?
-the seach PA function was pretty hard for me. I didn't even know where to start with it. i didn't think to use the action function to find the matches and call the right fnction.
+the seach PA function was pretty hard for me. I didn't even know where to start with it. i didn't think to use the action function to find the matches and call the right fnction.https://github.com/LT-IntroToAI-SY2324/a3-part2-bob.git
 
 6. Did you write a new assert for your pattern action?
 Yes.
